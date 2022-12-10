@@ -1,0 +1,7 @@
+file = ("Hello my name is chka chka slim shady")
+f = file.count("")
+b = len(file.split())
+print(f)
+print(b)
+c = file.count("\n")
+print(c)
