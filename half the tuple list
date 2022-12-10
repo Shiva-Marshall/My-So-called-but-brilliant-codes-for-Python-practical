@@ -1,0 +1,8 @@
+t1 = (1, 2, 5, 7, 9, 2, 4, 6, 8, 10)
+print('The first half of the tuple t1 is:')
+for i in range(0, int(len(t1) / 2)):
+    print(t1[i], end=' ')
+print('\nThe second half of the tuple t1 is:')
+for i in range(int(len(t1) / 2), int(len(t1))):
+    print(t1[i], end=' ')
+    
