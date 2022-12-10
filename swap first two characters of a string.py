@@ -1,0 +1,8 @@
+a = ("My name is jimmy")
+b = ("Your name is greg buehl")
+c = ("Your")
+d = ("My")
+rep = a.replace("My", str(c))
+print(rep)
+rep2 = b.replace("Your", str(d))
+print(rep2)
